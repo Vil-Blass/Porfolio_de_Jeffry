@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* FUENTES */
+/* @font-face  {
+    font-family: "ceres";
+    src: url("../fonts/OFL.ttf");
+} */
+
+
+/* ESTILOS GENERALES */
+
+/* estilo de la cabecera */
+header {
+    background-color: #0D4646;
+    /* color: white; */
+    display: flex;
+    flex-flow: column;
+    height: 100px;
+
+}
+
+.contacto {
+    display: flex;
+    height: max-content;
+    background-color: rgb(96, 255, 255);
+    width: 99%;
+    margin: 0.5%;      
+
+
+
+    ol {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        padding: 0 10px;
+        list-style: none;
+        justify-content: space-between;
+        font-size: 1.5em;
+
+    }
+}
+#datos {
+    background-color: aliceblue;
+    padding: 1%;
+    color: black;
+    font-size: large;
+}
+.navBar {
+    display: flex;
+    flex-flow: row;
+    margin: 0.5%;
+
+    ul{
+        background-color: azure;
+        height: 100%;
+        width: 100%;
+        padding: 0 10px;
+        list-style: none;
+        justify-content: space-evenly;
+        font-size: 1.5em;
+        display: flex;
+        flex-flow: row;
+        
+        
+
+    }
+}
+.contenido {
+    display: flex;
+    flex-flow: row;
+    /* justify-content: center; */
+    background-color: aquamarine;
+    /* height: 800px; */
+
+    figure {
+        background-color: blue;
+        height: 300px;
+
+    }
+
+    section {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-around;
+        background-color: blueviolet;
+        width: 23.5%;
+        margin: 0.5%;
+
+
+        h2 {
+            background-color: brown;
+            height: max-content;
+
+        }
+
+        article {
+            background-color: brown;
+
+
+
+        }
+
+    }
+}
